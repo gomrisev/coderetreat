@@ -11,4 +11,11 @@ public class StringCalculatorTest {
         StringCalculator stringCalculator = new StringCalculator();
         Assert.assertEquals(0, stringCalculator.Add(""));
     }
+
+    @Test
+    public void stringCalculator2() {
+        
+        StringCalculator stringCalculator = new StringCalculator();
+        Assert.assertEquals(1, stringCalculator.Add("1"));
+    }
 }

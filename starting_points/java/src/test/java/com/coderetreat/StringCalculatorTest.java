@@ -1,8 +1,7 @@
 package com.coderetreat;
 
+import org.junit.Assert;
 import org.junit.Test;
-
-import static org.fest.assertions.Assertions.assertThat;
 
 public class StringCalculatorTest {
 
@@ -10,6 +9,6 @@ public class StringCalculatorTest {
     public void stringCalculator1() {
         
         StringCalculator stringCalculator = new StringCalculator();
-        Assert.assertEquals(0, stringCalculator.add(""));
+        Assert.assertEquals(0, stringCalculator.Add(""));
     }
 }

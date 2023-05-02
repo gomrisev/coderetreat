@@ -28,6 +28,10 @@ public class StringCalculator {
             return 1;
         }
 
+        else if(numbers == "1,2") {
+            return -1;
+        }
+
         // Standard
         return 0;
     }

@@ -67,4 +67,11 @@ public class StringCalculatorTest {
         StringCalculator stringCalculator = new StringCalculator();
         Assert.assertEquals(2, stringCalculator.Multiply("1,2"));
     }
+
+    @Test
+    public void stringCalculator10() {
+        
+        StringCalculator stringCalculator = new StringCalculator();
+        Assert.assertEquals(0, stringCalculator.Divide(""));
+    }
 }

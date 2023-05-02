@@ -24,6 +24,10 @@ public class StringCalculator {
             return 0;
         }
 
+        else if(numbers == "1") {
+            return 1;
+        }
+
         // Standard
         return 0;
     }

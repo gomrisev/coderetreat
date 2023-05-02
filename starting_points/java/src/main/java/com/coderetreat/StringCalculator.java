@@ -10,6 +10,7 @@ public class StringCalculator {
             return 1;
         }
 
+        // Standard
         return 0;
     }
 }

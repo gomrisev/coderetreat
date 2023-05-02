@@ -18,4 +18,11 @@ public class StringCalculatorTest {
         StringCalculator stringCalculator = new StringCalculator();
         Assert.assertEquals(1, stringCalculator.Add("1"));
     }
+
+    @Test
+    public void stringCalculator3() {
+        
+        StringCalculator stringCalculator = new StringCalculator();
+        Assert.assertEquals(3, stringCalculator.Add("1,2"));
+    }
 }

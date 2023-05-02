@@ -35,4 +35,13 @@ public class StringCalculator {
         // Standard
         return 0;
     }
+
+    public int Multiply(String numbers) {
+        if(numbers == "") {
+            return 0;
+        }
+
+        // Standard
+        return 0;
+    }
 }

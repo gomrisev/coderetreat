@@ -52,4 +52,10 @@ public class StringCalculatorTest {
         StringCalculator stringCalculator = new StringCalculator();
         Assert.assertEquals(0, stringCalculator.Multiply(""));
     }
+    @Test
+    public void stringCalculator8() {
+        
+        StringCalculator stringCalculator = new StringCalculator();
+        Assert.assertEquals(1, stringCalculator.Multiply("1"));
+    }
 }

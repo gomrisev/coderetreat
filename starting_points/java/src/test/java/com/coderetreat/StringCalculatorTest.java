@@ -39,4 +39,10 @@ public class StringCalculatorTest {
         StringCalculator stringCalculator = new StringCalculator();
         Assert.assertEquals(1, stringCalculator.Subtract("1"));
     }
+    @Test
+    public void stringCalculator6() {
+        
+        StringCalculator stringCalculator = new StringCalculator();
+        Assert.assertEquals(-1, stringCalculator.Subtract("1,2"));
+    }
 }
